@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+</head>
+<script></script>
+
+
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#s1">메인홈</a></li>
+            <li><a href="#s2">자기소개</a></li>
+            <li><a href="#s3">관심사</a></li>
+            <li><a href="#s4">개발자로드맵</a></li>
+            <li><a href="../01_project/join.html">회원가입</a></li>
+
+        </ul>
+    </nav>
+
+
+
+    <section id="s1">
+        
+        <fieldset>
+            <div class="wrapper">
+                <h4 >Welcome!</h3>
+                    <span id="hello">반갑습니다 홈페이지에 오신것을 환영합니다</span><br>
+                    <span id="line"></span><br>
+                    <span id="homeinfo">홈페이지제작중입니다 CSS 너무어렵군요!<br>페이지는 자기소개와 관심사 ,개발자로드맵,회원가입으로 구성되어있습니다 </span>
+                    <!-- <span id="downclick"><a href="#s2">더보기↓</a></span> -->
+            </div>
+        </fieldset>
+    </section>
+
+
+
+    <hr>
+
+    <section id="s2" class="section">
+        <div id="intro">
+            <p><span>About Me</span></p>
+        </div>
+
+        <div class="outerbox">
+            <div class="innerbox">
+                <div class="contentbox1" id="aboutcontent">
+                    <span class="svg1 svg"><div class="information">
+                        <img src="https://i.ibb.co/64WBbdV/Kakao-Talk-20210923-021900737.jpg" alt="" class="infoImg"  style="height: 300px";>
+                        <p style="text-align: center; color: wheat;">안녕하세요!<br>백엔드개발자가 되고싶은 이윤희입니다<br>컨텐츠디자인을 전공하였고<br>현재는KH정보교육원에서 SW개발을 공부중입니다!<br>
+                        </p>
+                    </div>
+                </span>
+                <span class="svg2 svg" style="display: none;"><div class="information">
+                    <img src="https://i.ibb.co/wJjMxH1/Kakao-Talk-20210923-024448252-04.jpg" alt="" class="infoImg" >
+                    <p style="text-align: center; color: wheat;">저희집 고양이 야춘이입니다!<br>고양이뿐만아니라 동물들을 좋아해용</p>
+                </div></span>
+               
+                <span class="svg3 svg" style="display: none;"><div class="information">
+                    <img src="https://i.ibb.co/CJZxjGV/Kakao-Talk-20210923-024448252-03.jpg" alt="" class="infoImg"  style="height: 350px";>
+                    <p style="text-align: center; color: wheat;">최근에는 식물을 기르는게 재밌어졌어요 ㅎㅎ <br>환경쪽에도 많은 관심이 생겼습니다..! <br>환경과 관련된 개발을 하게되면 <br>정말 재밌게 참여할수 있을것 같아요~
+                    </p>
+                </div></span>
+               
+                
+                </div>
+                <div class="contentbox1" id="contact">
+                    
+                    <a class="AboutMe_email__38blp" href="mailto:kky710160@gmail.com">
+
+                    <svg width="110" height="100"  id="contactSvg">
+
+                        <ellipse cx="50" cy="50" rx="40" ry="20" stroke="#fff" strok-width="5" fill="none" />
+                        <text x="45%" y="55%" text-anchor="middle" font-size=".65em"> CONTACT </text>
+                    </svg>
+                </a>
+                  
+                </div>
+            </div>
+
+            <div class="innerbox" id="inner2">
+                <div class="contentbox" id="content1">
+
+                    <svg width="110" height="100"  id="svgBtn1">
+
+                        <ellipse cx="50" cy="50" rx="40" ry="20" stroke="#fff" strok-width="5" fill="none" />
+                        <text x="45%" y="60%" text-anchor="middle" font-size="2em"> ← </text>
+                    </svg>
+                    <p><span>간단한 자기소개</span></p>
+                </div>
+
+
+
+                <div class="contentbox" id="content1">
+                    <svg width="110" height="100" id="svgBtn2">
+                        <ellipse cx="50" cy="50" rx="40" ry="20" stroke="#fff" strok-width="5" fill="none" />
+                        <!-- <g> -->
+                            <text x="45%" y="60%" text-anchor="middle" font-size="2em"> ← </text>
+                            <!-- </g> -->
+                        </svg>
+                        <p><span>반려묘</span></p>
+                </div>
+
+                <div class="contentbox" id="content1"> 
+                    <svg width="110" height="100"  id="svgBtn3">
+                        <ellipse cx="50" cy="50" rx="40" ry="20" stroke="#fff" strok-width="5" fill="none" />
+                        <!-- <g> -->
+                        <text x="45%" y="60%" text-anchor="middle" font-size="2em"> ← </text>
+                        <!-- </g> -->
+                    </svg>
+                    <p><span>최근의취미생활</span></p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <hr>
+    <section id="s3">
+        <h2>COFFEE <img src="https://i.ibb.co/yyhZB9x/924514.png" alt="" style="width: 55px; height: 55px;"></h2>
+
+    <section class="center slider" id="slider" style="height: 60vh;">
+    <div>
+        <img src="https://i.ibb.co/GcdxJ33/Kakao-Talk-20210907-202414286.jpg" alt="">
+    </div>
+    <div>
+        <img src="https://i.ibb.co/jMfbbCp/Kakao-Talk-20210907-202414286-04.jpg" alt="">
+    </div>
+    <div>
+        <img src="https://i.ibb.co/r0v001j/Kakao-Talk-20210907-202414286-01.jpg" alt="">
+    </div>
+    <div>
+    <img src="https://i.ibb.co/C5xQnFq/Kakao-Talk-20210907-202414286-02.jpg" alt="">
+    </div>
+    <div>
+        <img src="https://i.ibb.co/Z6j3w06/Kakao-Talk-20210907-202414286-03.jpg" alt="">
+    </div>
+</section>
+<p >커피마시는것을 좋아합니다.!<br>
+ 사진도 찍으면서 좋은 공간에서 새로운 에너지를 얻는것은 코딩할때에 기분전환하기 좋은것 같아요</p>
+
+
+</section>
+
+
+
+<hr>
+    <section id="s4">
+        
+            <h2 id="s4h2">Current Skills and Road Map</h2>
+               <div class="outerbox4">
+
+            <div class="innerbox4" id="innerbox4_1" >
+                
+                
+                <P  class="s4title">프로그래밍 언어와 프로그램</P>
+                <div class="contentbox4" >  
+            <p><img src="https://i.ibb.co/JFhX68F/eclipse-11-logo-png-transparent.png"    alt="">Java</p>
+            <p><img src="https://i.ibb.co/Yt9Ywgw/Oracle-SQL-Developer-Logo-wine.png"     alt="">SQL Developer</p>
+            <p><img src="https://i.ibb.co/ZT0fdYz/Visual-Studio-Code-1-35-icon-svg.png"   alt="">JavaScript jQuery</p>
+        </div>
+
+        <P class="s4title" >디자인 프로그램</P>
+        <div class="contentbox4">
+                <p><img src="https://i.ibb.co/Jkrw4LH/photoshoplogo.png" alt=""  >PhotoShop</p>
+                <p><img src="https://i.ibb.co/jZ6bKH3/illustlator.png" alt=""  >Illustlator</p>
+                <p><img src="https://i.ibb.co/ZhdMF5b/primerpro-logo.png" alt="" >Premiere</p>
+                <p><img src="https://i.ibb.co/PrVd2ZN/After-Effectlogo.png" alt="">AfterEffect</p>
+            </div>
+
+            
+            
+            <P class="s4title">배우고싶은 언어와 프로그램 </P>
+            <div class="contentbox4">
+                <p><img src="https://i.ibb.co/yhfd6qZ/sketch-61-722739.png" alt="" >Sketch</p>
+                <p><img src="https://i.ibb.co/RH5M8Mt/768px-Python-logo-notext-svg.png" alt="" >Python</p>
+            </div>
+        </div>
+
+       
+
+
+      
+    </section>
+    <hr>    
+    
+
+
+
+    
+    <section style="height: 20vh;" class="footer">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <h2>Copyright @yunhee.All Rights Reserved</h2>
+    </section>
+
+
+
+</body>
+
+</html>
